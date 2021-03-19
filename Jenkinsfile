@@ -3,7 +3,7 @@ agent any
 stages{
      stage("get code"){
 	    steps{
-		       git clone git@github.com:liaohai/jenkins1test.git
+		      echo "get code scm"
 		}
 	 }
 	 stage("package"){
